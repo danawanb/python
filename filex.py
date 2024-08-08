@@ -1,16 +1,16 @@
 from pathlib import Path
 
-path = Path('digits.txt')
-contents = path.read_text()
-contents = contents.rstrip()
-print(contents)
+#path = Path('digits.txt')
+#contents = path.read_text()
+#contents = contents.rstrip()
+#print(contents)
 
 
 try:
 
     paath = Path('test.txt')
 
-    conts = path.read_text()
+    conts = paath.read_text()
     conts = conts.split()
 
     for cont in conts:
