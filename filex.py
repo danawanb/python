@@ -11,7 +11,7 @@ try:
     paath = Path('test.txt')
 
     conts = paath.read_text()
-    conts = conts.split()
+    conts = conts.splitlines()
 
     for cont in conts:
         print(cont)

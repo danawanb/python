@@ -1,0 +1,5 @@
+ We start out by reading the entire contents of the file, as we did ear
+lier 1. If you’re planning to work with the individual lines in a file, you 
+don’t need to strip any whitespace when reading the file. The splitlines() 
+method returns a list of all lines in the file, and we assign this list to the 
+variable lines 2. We then loop over these lines and print each one:
