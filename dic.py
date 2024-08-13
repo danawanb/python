@@ -39,3 +39,14 @@ mesx = input('siapa namamu : ? ')
 print(mesx)
 
 print('end me')
+
+keyboard = { "first" : "keykult",  "second" :"ahahah", "lslsl":"lmao", "zzz":"maha"}
+
+
+for itex in keyboard.items():
+    print(itex)
+
+
+
+for xx in keyboard:
+    print(keyboard[xx])

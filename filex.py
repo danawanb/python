@@ -6,6 +6,8 @@ from pathlib import Path
 #print(contents)
 
 
+conts_plus = ''
+
 try:
 
     paath = Path('test.txt')
@@ -14,7 +16,16 @@ try:
     conts = conts.splitlines()
 
     for cont in conts:
-        print(cont)
+        conts_plus += cont
 
 except Exception as err:
     print(err)
+
+
+print(conts_plus+"\n")
+
+cats = "Hello cats"
+cats.replace('cat', 'dogs')
+
+print(cats)
+
